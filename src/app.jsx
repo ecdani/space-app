@@ -9,10 +9,16 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <Link to="/biometrics">Biometrics</Link>
-        <Link to="/comunications">Comunications</Link>
-        <Link to="/navigation">Navigation</Link>
-        <Link to="/sensors">Sensors</Link>
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              <Link to="/biometrics" className="btn btn-primary btn-main">Biometrics</Link>
+            </div>
+            <div className="col"><Link to="/comunications" className="btn btn-primary btn-main">Comunications</Link></div>
+            <div className="col"><Link to="/navigation" className="btn btn-primary btn-main">Navigation</Link></div>
+            <div className="col"><Link to="/sensors" className="btn btn-primary btn-main">Sensors</Link></div>
+          </div>
+        </div>
         <Route path="/biometrics" component={Biometrics} />
         <Route path="/comunications" component={Comunications} />
         <Route path="/navigation" component={Navigation} />
