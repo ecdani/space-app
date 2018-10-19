@@ -18,6 +18,7 @@ export default class App extends React.Component {
         <Route path="/navigation" component={Navigation} />
         <Route path="/sensors" component={Sensors} />
         <h2>Welcome to React!</h2>
+        <button className="btn">Tu boton en boostrap</button>
       </div>
     );
   }
