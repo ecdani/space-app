@@ -67,8 +67,17 @@ a {
   grid-area: Piqueta;
 }
 
-.Presion {
+.presion {
   grid-area: Presion;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.presion > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .humidity {
