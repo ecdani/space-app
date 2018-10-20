@@ -11,7 +11,7 @@ export default () => (
     <div className="Piqueta" />
     <div className="Presion" />
     <div className="Humedad" />
-    <div className="Composition">
+    <div className="composition">
       <AtmosphericComposition />
     </div>
   </div>
