@@ -56,3 +56,10 @@ a {
 .Composition {
   grid-area: Composition;
 }
+
+.composition {
+  grid-area: Composition;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
