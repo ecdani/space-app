@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default props => (
-  <div className="call">
+  <div className="call" onClick={props.onClick}>
     <div
       className="call-circle"
       style={{

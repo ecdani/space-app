@@ -210,3 +210,12 @@ a {
   background: silver;
   color: #00004d;
 }
+
+.video-call {
+  margin-top: 20px;
+}
+
+.cancel-call {
+  color: red;
+  padding: 10px;
+}
