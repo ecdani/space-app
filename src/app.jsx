@@ -9,28 +9,24 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <div className="container">
+        <div className="container-flex menu-container">
           <div className="row menu-row">
-            <div className="col">
-              <Link to="/biometrics" className="btn btn-primary btn-main">
-                Biometrics
-              </Link>
-            </div>
-            <div className="col">
-              <Link to="/comunications" className="btn btn-primary btn-main">
-                Comunications
-              </Link>
-            </div>
-            <div className="col">
-              <Link to="/navigation" className="btn btn-primary btn-main">
-                Navigation
-              </Link>
-            </div>
-            <div className="col">
-              <Link to="/sensors" className="btn btn-primary btn-main">
-                Sensors
-              </Link>
-            </div>
+
+            <Link to="/biometrics" className="btn btn-primary btn-first">
+              Biometrics
+            </Link>
+
+            <Link to="/comunications" className="btn btn-primary btn-main">
+              Comunications
+            </Link>
+
+            <Link to="/navigation" className="btn btn-primary btn-main">
+              Navigation
+            </Link>
+
+            <Link to="/sensors" className="btn btn-primary btn-last">
+              Sensors
+            </Link>
           </div>
         </div>
         <Route path="/biometrics" component={Biometrics} />
@@ -41,6 +37,12 @@ export default class App extends React.Component {
           <div className="row footer-row">
             <div className="col">
               Battery <i className="fas fa-battery-three-quarters" />
+            </div>
+            <div className="col">
+              Date {new Date().toDateString()}
+            </div>
+            <div className="col">
+              Hour {new Date().toLocaleTimeString()}
             </div>
           </div>
         </div>
