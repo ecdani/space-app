@@ -37,6 +37,13 @@ export default class App extends React.Component {
         <Route path="/comunications" component={Comunications} />
         <Route path="/navigation" component={Navigation} />
         <Route path="/sensors" component={Sensors} />
+        <div className="container-fluid">
+          <div className="row footer-row">
+            <div className="col">
+              Battery <i className="fas fa-battery-three-quarters" />
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
