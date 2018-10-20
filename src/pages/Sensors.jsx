@@ -1,5 +1,6 @@
 import React from 'react';
 import AtmosphericComposition from '../components/AtmosphericComposition';
+import Humidity from '../components/Humidity';
 
 export default () => (
   <div className="atmospheric-page">
@@ -11,7 +12,9 @@ export default () => (
     <div className="Radiacion-start-cell" />
     <div className="Piqueta" />
     <div className="Presion" />
-    <div className="Humedad" />
+    <div className="humidity">
+      <Humidity percent={45} />
+    </div>
     <div className="composition">
       <AtmosphericComposition />
     </div>
