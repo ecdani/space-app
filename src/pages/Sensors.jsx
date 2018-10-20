@@ -5,8 +5,9 @@ import Pression from '../components/Pression';
 
 export default () => (
   <div className="atmospheric-page">
-    <div className="Name">Mars</div>
+    <h1 className="Name">Mars General Status</h1>
     <div className="Image">
+      <span className="helper" />
       <img className="img-mars" src="../src/assets/img/mars.png" alt="mars" />
     </div>
     <div className="Radiacion-start-cell" />
