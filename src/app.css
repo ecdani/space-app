@@ -130,7 +130,7 @@ a {
   align-items: center;
 }
 
-.presion > div > :first-child {
+.presion > div > * {
   padding: 10px;
 }
 
@@ -140,10 +140,9 @@ a {
   display: flex;
   font-size: 1em;
   justify-content: center;
-  align-items: center;
 }
 
-.humidity > div > :first-child {
+.humidity > div > * {
   padding: 10px;
 }
 
