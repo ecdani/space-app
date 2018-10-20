@@ -27,6 +27,10 @@ a {
 .menu-row {
   border-bottom: 3px solid #0000ff;
 }
+.btn-active {
+  background-color: #0069d9 !important;
+  border-color: #0062cc !important;
+}
 .menu-row .col {
   display: flex;
   flex-direction: column;
