@@ -154,11 +154,20 @@ a {
 }
 
 .Sidebar-1 {
-  grid-area: Sidebar-1;
-}
-.Sidebar-2 {
-  grid-area: Sidebar-2;
-}
-.Sidebar-3 {
-  grid-area: Sidebar-3;
+    grid-area: Sidebar-1;
+  }
+  .Sidebar-2 {
+    grid-area: Sidebar-2;
+  }
+  .Sidebar-3 {
+    grid-area: Sidebar-3;
+  }
+
+.navigation-main {
+    background-image: url("../src/assets/img/map.jpg");
+    width: 774px;
+    height: 473px;
+    background-size: cover;
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
 }
