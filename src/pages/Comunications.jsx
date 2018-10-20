@@ -4,7 +4,7 @@ import Call from '../components/Call';
 export default class extends Component {
   constructor(props) {
     super(props);
-    this.state = { setVideo: true };
+    this.state = { setVideo: false };
   }
   render() {
     const { setVideo } = this.state;
