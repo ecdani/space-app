@@ -12,11 +12,25 @@ export default class App extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col">
-              <Link to="/biometrics" className="btn btn-primary btn-main">Biometrics</Link>
+              <Link to="/biometrics" className="btn btn-primary btn-main">
+                Biometrics
+              </Link>
             </div>
-            <div className="col"><Link to="/comunications" className="btn btn-primary btn-main">Comunications</Link></div>
-            <div className="col"><Link to="/navigation" className="btn btn-primary btn-main">Navigation</Link></div>
-            <div className="col"><Link to="/sensors" className="btn btn-primary btn-main">Sensors</Link></div>
+            <div className="col">
+              <Link to="/comunications" className="btn btn-primary btn-main">
+                Comunications
+              </Link>
+            </div>
+            <div className="col">
+              <Link to="/navigation" className="btn btn-primary btn-main">
+                Navigation
+              </Link>
+            </div>
+            <div className="col">
+              <Link to="/sensors" className="btn btn-primary btn-main">
+                Sensors
+              </Link>
+            </div>
           </div>
         </div>
         <Route path="/biometrics" component={Biometrics} />
