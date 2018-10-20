@@ -4,6 +4,7 @@ import Biometrics from './pages/Biometrics';
 import Comunications from './pages/Comunications';
 import Navigation from './pages/Navigation';
 import Sensors from './pages/Sensors';
+import FooterRow from './components/FooterRow';
 
 export default class App extends React.Component {
   render() {
@@ -11,7 +12,6 @@ export default class App extends React.Component {
       <div>
         <div className="container-flex menu-container">
           <div className="row menu-row">
-
             <Link to="/biometrics" className="btn btn-primary btn-first">
               Biometrics
             </Link>
@@ -34,17 +34,7 @@ export default class App extends React.Component {
         <Route path="/navigation" component={Navigation} />
         <Route path="/sensors" component={Sensors} />
         <div className="container-fluid">
-          <div className="row footer-row">
-            <div className="col">
-              Battery <i className="fas fa-battery-three-quarters" />
-            </div>
-            <div className="col">
-              Date {new Date().toDateString()}
-            </div>
-            <div className="col">
-              Hour {new Date().toLocaleTimeString()}
-            </div>
-          </div>
+          <FooterRow />
         </div>
       </div>
     );
