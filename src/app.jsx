@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Link, withRouter } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import Biometrics from './pages/Biometrics';
 import Comunications from './pages/Comunications';
 import Navigation from './pages/Navigation';
