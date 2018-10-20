@@ -77,7 +77,7 @@ a {
 }
 
 .img-mars {
-  width: 100%;
+  width: 280px;
   padding: 2em;
 }
 
@@ -91,7 +91,7 @@ a {
 }
 
 .atmospheric-page {
-  height: 509px;
+  height: 300px;
   display: grid;
   grid-template-columns: 25% 50% 25%;
   grid-template-rows: 10% 30% 30% 30%;
@@ -106,6 +106,7 @@ a {
 
 .Image {
   grid-area: Image;
+  text-align: center;
 }
 
 .Radiacion {
@@ -119,27 +120,27 @@ a {
 .presion {
   grid-area: Presion;
   font-weight: bold;
-  font-size: 2em;
-  text-align: center;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.presion > div {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+.presion > div > :first-child {
+  padding: 10px;
 }
 
 .humidity {
   grid-area: Humidity;
   font-weight: bold;
-  font-size: 2em;
-  text-align: center;
+  display: flex;
+  font-size: 1em;
+  justify-content: center;
+  align-items: center;
 }
 
-.humidity > div {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+.humidity > div > :first-child {
+  padding: 10px;
 }
 
 .Composition {
@@ -166,7 +167,7 @@ a {
 .navigation-main {
   background-image: url("../src/assets/img/map.jpg");
   width: 774px;
-  height: 473px;
+  height: 354px;
   background-size: cover;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -175,7 +176,7 @@ a {
 .call {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 0 10px;
   margin: 10px;
 }
 
