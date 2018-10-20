@@ -27,6 +27,12 @@ a {
     position: absolute;
     width: 774px;
 }
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
 .footer-row {
     border-top: 3px solid #0000FF;
 }
@@ -40,11 +46,12 @@ a {
 }
 
 .img-mars {
-  width: 50%;
+  width: 100%;
   padding: 2em;
 }
 
 .atmospheric-page {
+    height: 509px;
   display: grid;
   grid-template-columns: 25% 50% 25%;
   grid-template-rows: 10% 30% 30% 30%;
@@ -53,6 +60,7 @@ a {
 }
 
 .Name {
+    text-align: center;
   grid-area: Name;
 }
 
