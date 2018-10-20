@@ -19,13 +19,13 @@ a {
   background: red;
 }
 .menu-container {
-    max-width: 746px;
-    margin-left: 13px;
-    margin-right: 13px;
-    border-bottom: 3px solid ‎#0000FF;
+  max-width: 746px;
+  margin-left: 13px;
+  margin-right: 13px;
+  border-bottom: 3px solid ‎#0000FF;
 }
 .menu-row {
-    border-bottom: 3px solid #0000FF;
+  border-bottom: 3px solid #0000ff;
 }
 .menu-row .col {
   display: flex;
@@ -37,14 +37,15 @@ a {
   width: 774px;
 }
 .helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
 
 .footer-row {
   border-top: 3px solid #0000ff;
   height: 40px;
+  align-items: center;
 }
 .btn-main {
   background-color: transparent;
@@ -52,27 +53,27 @@ a {
   border-radius: 0px;
   border-right: 3px solid #0000ff;
   flex-grow: 1;
-  height:55px;
-  padding-top:15px;
+  height: 55px;
+  padding-top: 15px;
 }
 .btn-last {
-    border: 0px solid;
-    background-color: transparent;
-    border-radius: 0px 25px 0px 0px;
-    flex-grow: 1;
-    height:55px;
-    padding-top:15px;
+  border: 0px solid;
+  background-color: transparent;
+  border-radius: 0px 25px 0px 0px;
+  flex-grow: 1;
+  height: 55px;
+  padding-top: 15px;
 }
 .btn-first {
-    border-top: 0px;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-right: 3px solid #0000ff;
-    background-color: transparent;
-    border-radius: 25px 0px 0px 0px;
-    flex-grow: 1;
-    height:55px;
-    padding-top:15px;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 3px solid #0000ff;
+  background-color: transparent;
+  border-radius: 25px 0px 0px 0px;
+  flex-grow: 1;
+  height: 55px;
+  padding-top: 15px;
 }
 
 .img-mars {
@@ -81,7 +82,7 @@ a {
 }
 
 .biometrics-page {
-    height: 509px;
+  height: 509px;
   display: grid;
   grid-template-columns: 25% 50% 25%;
   grid-template-rows: 10% 30% 30% 30%;
@@ -90,7 +91,7 @@ a {
 }
 
 .atmospheric-page {
-    height: 509px;
+  height: 509px;
   display: grid;
   grid-template-columns: 25% 50% 25%;
   grid-template-rows: 10% 30% 30% 30%;
@@ -99,7 +100,7 @@ a {
 }
 
 .Name {
-    text-align: center;
+  text-align: center;
   grid-area: Name;
 }
 
@@ -115,8 +116,17 @@ a {
   grid-area: Piqueta;
 }
 
-.Presion {
+.presion {
   grid-area: Presion;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.presion > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .humidity {
