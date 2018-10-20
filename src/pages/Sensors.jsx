@@ -5,7 +5,7 @@ export default () => (
   <div className="atmospheric-page">
     <div className="Name">Mars</div>
     <div className="Image">
-      <img className="img-mars" src="../src/assets/img/mars.jpg" alt="mars" />
+      <img className="img-mars" src="../src/assets/img/mars.png" alt="mars" />
     </div>
     <div className="Radiacion-start-cell" />
     <div className="Piqueta" />
