@@ -1,3 +1,8 @@
 a {
   background: red;
 }
+
+.img-mars {
+  width: 50%;
+  padding: 2em;
+}

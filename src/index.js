@@ -1,5 +1,7 @@
 import { app, BrowserWindow } from 'electron';
-import installExtension, { REACT_DEVELOPER_TOOLS } from 'electron-devtools-installer';
+import installExtension, {
+  REACT_DEVELOPER_TOOLS,
+} from 'electron-devtools-installer';
 import { enableLiveReload } from 'electron-compile';
 
 // Keep a global reference of the window object, if you don't, the window will
@@ -17,7 +19,6 @@ const createWindow = async () => {
     height: 600,
     frame: false,
   });
-
 
   // and load the index.html of the app.
   mainWindow.loadURL(`file://${__dirname}/index.html`);
