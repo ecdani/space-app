@@ -10,7 +10,7 @@ export default class App extends React.Component {
     return (
       <div>
         <div className="container">
-          <div className="row">
+          <div className="row menu-row">
             <div className="col">
               <Link to="/biometrics" className="btn btn-primary btn-main">
                 Biometrics
