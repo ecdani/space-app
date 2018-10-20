@@ -11,7 +11,7 @@ export default () => (
     <div className="Radiacion-start-cell" />
     <div className="Piqueta" />
     <div className="Presion" />
-    <div className="Humedad">
+    <div className="humidity">
       <Humidity percent={45} />
     </div>
     <div className="composition">

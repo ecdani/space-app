@@ -48,7 +48,7 @@ a {
   grid-template-columns: 25% 50% 25%;
   grid-template-rows: 10% 30% 30% 30%;
   grid-gap: 1px 1px;
-  grid-template-areas: "Name Name Name" "Radiacion Image Presion" "Piqueta Image Humedad" "Piqueta Image Composition";
+  grid-template-areas: "Name Name Name" "Radiacion Image Presion" "Piqueta Image Humidity" "Piqueta Image Composition";
 }
 
 .Name {
@@ -71,11 +71,17 @@ a {
   grid-area: Presion;
 }
 
-.Humedad {
-  grid-area: Humedad;
+.humidity {
+  grid-area: Humidity;
   font-weight: bold;
   font-size: 2em;
   text-align: center;
+}
+
+.humidity > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .Composition {
