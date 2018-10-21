@@ -262,3 +262,12 @@ a {
 .heart-biometric-container > * {
   margin: 10px;
 }
+
+.leaflet-popup-content {
+
+    line-height: 1.4;
+    font-size: 14px;
+    text-shadow: none;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+}
