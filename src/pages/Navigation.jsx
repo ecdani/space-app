@@ -79,7 +79,7 @@ export default class extends Component {
           <Consume>
               {context => (
                   <div><div className="navigation-main" id="map" /> <div className="brujula">
-                      <img src="../src/assets/img/arrow.jpg" style={{ transform: `rotate(${context.brujula}deg)` }} /></div></div>
+                      <img src="../src/assets/img/arrow.png" style={{ transform: `rotate(${context.brujula}deg)` }} /></div></div>
                 )}
             </Consume>
         );

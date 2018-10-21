@@ -46,8 +46,8 @@ a {
 .container-fluid {
   bottom: 16px;
   position: absolute;
-  /*width: 774px;*/
-  width: 828px;
+  width: 774px;
+  /*width: 828px;*/
 }
 .helper {
   display: inline-block;
@@ -177,6 +177,9 @@ a {
 }
 .leaflet-container {
   background: rgb(0, 0, 0, 0.5);
+}
+.leaflet-control-attribution {
+  display:none;
 }
 
 .brujula {
