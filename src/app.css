@@ -42,8 +42,8 @@ a {
 .container-fluid {
   bottom: 16px;
   position: absolute;
-  /*width: 774px;*/
-  width: 828px;
+  width: 774px;
+  /*width: 828px;*/
 }
 .helper {
   display: inline-block;
