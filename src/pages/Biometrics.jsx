@@ -14,11 +14,14 @@ export default () => (
         {context => (
           <div>
             <div className="heart-biometric-container">
-              <span>
+              <span style={{ padding: '10px' }}>
                 {context.pulsaciones}
                 ppm
               </span>
-              <i className="fas fa-heartbeat fa-3x" />
+              <i
+                className="fas fa-heartbeat fa-3x"
+                style={{ padding: ' 0 15px' }}
+              />
             </div>
             <div className="stats">
               <div>

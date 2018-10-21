@@ -44,22 +44,22 @@ export default class extends Component {
   }
 
   componentWillMount() {
-    this.interval = setInterval(() => {
-      this.fetchVelViento();
-      this.fetchValSism();
-      this.fetchHumedadSuelo();
-      this.fetchHumedadAire();
-      this.fetchTemp();
-      this.fetchSensTermic();
-      this.fetchPresTraje();
-      this.fetchTempCorporal();
-      this.fetchRadiacion();
-      this.fetchLuz();
-      this.fetchSelecGui();
-      this.fetchLlamada();
-      this.fetchBrujula();
-      this.fetchPulsaciones();
-    }, 1000);
+    this.interval = setInterval(async () => {
+      await this.fetchVelViento();
+      await this.fetchValSism();
+      await this.fetchHumedadSuelo();
+      await this.fetchHumedadAire();
+      await this.fetchTemp();
+      await this.fetchSensTermic();
+      await this.fetchPresTraje();
+      await this.fetchTempCorporal();
+      await this.fetchRadiacion();
+      await this.fetchLuz();
+      await this.fetchSelecGui();
+      await this.fetchLlamada();
+      await this.fetchBrujula();
+      await this.fetchPulsaciones();
+    }, 5000);
   }
 
   componentWillUnmount() {
