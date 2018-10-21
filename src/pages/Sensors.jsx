@@ -17,7 +17,7 @@ export default () => (
         </div>
         <div className="stats">
           <div>
-            <span>Wind Vel</span>
+            <span>W Vel</span>
             <i className="fas fa-wind" />
             <span>
               {context.velViento}
@@ -43,7 +43,7 @@ export default () => (
             <span>{context.humSuelo}%</span>
           </div>
           <div>
-            <span>Seismic Lvl</span>
+            <span>S Lvl</span>
             <i className="fas fa-globe-africa" />
             <span>
               {context.valSism}

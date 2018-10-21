@@ -31,7 +31,9 @@ const renderCustomizedLabel = ({
 
 export default () => (
   <div className="container">
-    <div className="row">Atmospheric comp.</div>
+    <div className="row" style={{ marginLeft: '25px' }}>
+      Atmospheric comp.
+    </div>
     <div className="row" style={{ justifyContent: 'center' }}>
       <div>
         <PieChart width={105} height={105}>
