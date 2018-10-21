@@ -101,10 +101,10 @@ a {
 .atmospheric-page {
   height: 300px;
   display: grid;
-  grid-template-columns: 25% 50% 25%;
+  grid-template-columns: 33% 34% 33%;
   grid-template-rows: 10% 30% 30% 30%;
   grid-gap: 1px 1px;
-  grid-template-areas: "Name Name Name" "Radiacion Image Presion" "Piqueta Image Humidity" "Piqueta Image Composition";
+  grid-template-areas: "Name Name Name" "Stats Image Stats-rigth" "Stats Image Stats-rigth" "Stats Image Composition";
 }
 
 .Name {
@@ -121,33 +121,24 @@ a {
   grid-area: Radiacion;
 }
 
-.Piqueta {
-  grid-area: Piqueta;
+.stats {
+  grid-area: Stats;
+  margin: 20px;
 }
 
-.presion {
-  grid-area: Presion;
-  font-weight: bold;
-  font-size: 1em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.presion > div > * {
+.stats > div > * {
   padding: 10px;
+  margin: 10px 0;
 }
 
-.humidity {
-  grid-area: Humidity;
-  font-weight: bold;
-  display: flex;
-  font-size: 1em;
-  justify-content: center;
+.stats-rigth {
+  grid-area: Stats-rigth;
+  margin: 20px;
 }
 
-.humidity > div > * {
+.stats-rigth > div > * {
   padding: 10px;
+  margin: 10px 0;
 }
 
 .Composition {
