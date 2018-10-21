@@ -85,7 +85,7 @@ a {
 }
 
 .img-mars {
-  width: 280px;
+  width: 240px;
   padding: 2em;
 }
 
@@ -101,7 +101,7 @@ a {
 .atmospheric-page {
   height: 300px;
   display: grid;
-  grid-template-columns: 33% 34% 33%;
+  grid-template-columns: 34% 32% 34%;
   grid-template-rows: 10% 30% 30% 30%;
   grid-gap: 1px 1px;
   grid-template-areas: "Name Name Name" "Stats Image Stats-rigth" "Stats Image Stats-rigth" "Stats Image Composition";
