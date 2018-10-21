@@ -1,0 +1,158 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:2:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d98600695243645495d5532bd53a1a96/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/elon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bcae4e7ba1a67bfdd924a53aa74cf817/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/7d75448fd2a43f6a760a8a962e2e29b5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/99b201c0d1497da09e0d6b4bed0b2d9c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/7e423227ea21ab6cf99798823ffe0d8c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/c410f9cc1e86c64631bfaba834774a6b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/ce6e2271a437371a24b29474487d1bee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b712fb9bd8c38376fde86cc8c0aca601/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/71410b06825b791f5abafee1cf703fe9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/bc4530f01ad7910a0dc1cd9f8d103195/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/7bcbc3f0861f8fc099a2d955d0fae366/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/36e77f2b6a9a9a80490f8931d0cd40a2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/d2c315df24ef4ff78703fbdd0f51bd05/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/aabe5e7bf1a6b25072f877b246bb84ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/5fc9b621756ef58011946adb847ca8bd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8d5da27fe9291226bf7bb82263b612fb/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/12fe2cd22a4ab47a176b2eb28f7f6399/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/2b358d27df6ef9173e117034b04e1b55/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/elon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cb6dbc349e4c20e1c14154646cd93d01/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/4c8d9d85e5665614f7b4a36da88218e0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/f558b95fdca65f36d7650fd136e385d0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/caa5eca24e49d85128b2f271ea498715/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/elon/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/49687e08e0b50cee0529319712d06474/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/elon/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/711a9d8861c726e7d056ba6b7b50ed2a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/elon/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/4679889b0c766780f4b9de3111e14e09/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/elon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ac9b9735e2537a0091f6fe63a4282e86/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/3dba4e5160fa12fd45eefed584b59e26/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml
+		INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml
+		ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml
+		ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:6:5-20:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/elon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bcae4e7ba1a67bfdd924a53aa74cf817/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/elon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bcae4e7ba1a67bfdd924a53aa74cf817/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8d5da27fe9291226bf7bb82263b612fb/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8d5da27fe9291226bf7bb82263b612fb/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/12fe2cd22a4ab47a176b2eb28f7f6399/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/12fe2cd22a4ab47a176b2eb28f7f6399/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8d5da27fe9291226bf7bb82263b612fb/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:12:9-40
+activity#com.example.elon.compass.MainActivity
+ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:13:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml:17:27-74
+uses-sdk
+INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml
+INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d98600695243645495d5532bd53a1a96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d98600695243645495d5532bd53a1a96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/elon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bcae4e7ba1a67bfdd924a53aa74cf817/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/elon/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bcae4e7ba1a67bfdd924a53aa74cf817/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/7d75448fd2a43f6a760a8a962e2e29b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/7d75448fd2a43f6a760a8a962e2e29b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/99b201c0d1497da09e0d6b4bed0b2d9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/99b201c0d1497da09e0d6b4bed0b2d9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/7e423227ea21ab6cf99798823ffe0d8c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/7e423227ea21ab6cf99798823ffe0d8c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/c410f9cc1e86c64631bfaba834774a6b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/c410f9cc1e86c64631bfaba834774a6b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/ce6e2271a437371a24b29474487d1bee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/ce6e2271a437371a24b29474487d1bee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b712fb9bd8c38376fde86cc8c0aca601/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b712fb9bd8c38376fde86cc8c0aca601/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/71410b06825b791f5abafee1cf703fe9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/71410b06825b791f5abafee1cf703fe9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/bc4530f01ad7910a0dc1cd9f8d103195/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/bc4530f01ad7910a0dc1cd9f8d103195/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/7bcbc3f0861f8fc099a2d955d0fae366/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/7bcbc3f0861f8fc099a2d955d0fae366/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/36e77f2b6a9a9a80490f8931d0cd40a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/36e77f2b6a9a9a80490f8931d0cd40a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/d2c315df24ef4ff78703fbdd0f51bd05/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/d2c315df24ef4ff78703fbdd0f51bd05/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/aabe5e7bf1a6b25072f877b246bb84ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/aabe5e7bf1a6b25072f877b246bb84ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/5fc9b621756ef58011946adb847ca8bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/5fc9b621756ef58011946adb847ca8bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8d5da27fe9291226bf7bb82263b612fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8d5da27fe9291226bf7bb82263b612fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/12fe2cd22a4ab47a176b2eb28f7f6399/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/12fe2cd22a4ab47a176b2eb28f7f6399/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/2b358d27df6ef9173e117034b04e1b55/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/2b358d27df6ef9173e117034b04e1b55/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/elon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cb6dbc349e4c20e1c14154646cd93d01/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/elon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cb6dbc349e4c20e1c14154646cd93d01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/4c8d9d85e5665614f7b4a36da88218e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/4c8d9d85e5665614f7b4a36da88218e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/f558b95fdca65f36d7650fd136e385d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/f558b95fdca65f36d7650fd136e385d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/caa5eca24e49d85128b2f271ea498715/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/caa5eca24e49d85128b2f271ea498715/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/elon/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/49687e08e0b50cee0529319712d06474/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/elon/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/49687e08e0b50cee0529319712d06474/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/elon/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/711a9d8861c726e7d056ba6b7b50ed2a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/elon/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/711a9d8861c726e7d056ba6b7b50ed2a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/elon/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/4679889b0c766780f4b9de3111e14e09/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/elon/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/4679889b0c766780f4b9de3111e14e09/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/elon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ac9b9735e2537a0091f6fe63a4282e86/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/elon/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ac9b9735e2537a0091f6fe63a4282e86/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/3dba4e5160fa12fd45eefed584b59e26/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/elon/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/3dba4e5160fa12fd45eefed584b59e26/AndroidManifest.xml:20:5-44
+INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml
+INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml
+		ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml
+		INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml
+		ADDED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml
+		INJECTED from /home/elon/AndroidStudioProjects/Compass/app/src/main/AndroidManifest.xml
