@@ -224,3 +224,8 @@ a {
   bottom: 80px;
   cursor: pointer;
 }
+
+.logo-image {
+  width: 500px;
+  margin-left: 140px;
+}

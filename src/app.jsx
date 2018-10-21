@@ -5,6 +5,7 @@ import Comunications from './pages/Comunications';
 import Navigation from './pages/Navigation';
 import Sensors from './pages/Sensors';
 import FooterRow from './components/FooterRow';
+import Home from './pages/Home';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -72,6 +73,7 @@ export default class App extends React.Component {
         <Route path="/comunications" component={Comunications} />
         <Route path="/navigation" component={Navigation} />
         <Route path="/sensors" component={Sensors} />
+        <Route path="/" exact component={Home} />
         <div className="container-fluid">
           <FooterRow />
         </div>

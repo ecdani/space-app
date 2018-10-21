@@ -56,7 +56,7 @@ export default () => (
             <div>
               <span>Gravity</span>
               <i className="fab fa-grav" />
-              <span>3,711 m/s²</span>
+              <span>9.81 m/s²</span>
             </div>
             <div>
               <span>Luminity</span>
