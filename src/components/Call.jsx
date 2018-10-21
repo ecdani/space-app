@@ -8,6 +8,8 @@ export default props => (
         backgroundImage: `url(../src/assets/img/${props.img}.jpg)`,
       }}
     />
-    <div className="call-name">{props.name}</div>
+    <div className={`call-name ${props.isActive ? 'call-name-active' : ''}`}>
+      {props.name}
+    </div>
   </div>
 );

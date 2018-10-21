@@ -25,6 +25,7 @@ export default class extends Component {
             <Call
               name="Base"
               img="mars-base"
+              isActive
               onClick={() => this.setState({ setVideo: true })}
             />
             <Call

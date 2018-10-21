@@ -215,6 +215,11 @@ a {
   color: #00004d;
 }
 
+.call-name-active {
+  background: silver;
+  color: #00004d;
+}
+
 .video-call {
   margin-top: 20px;
   height: 320px;

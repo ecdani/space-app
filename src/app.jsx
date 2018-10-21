@@ -64,7 +64,7 @@ export default class App extends React.Component {
               }`}
               onClick={() => this.changePage('sensors')}
             >
-              Sensors
+              Environment
             </Link>
           </div>
         </div>
