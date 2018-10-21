@@ -7,7 +7,7 @@ export default () => (
     <Consume>
       {context => (
         <div className="atmospheric-page">
-          <h1 className="Name">Mars General Status {context.foo}</h1>
+          <h1 className="Name">Mars General Status</h1>
           <div className="Image">
             <span className="helper" />
             <img
@@ -20,12 +20,18 @@ export default () => (
             <div>
               <span>Wind Vel</span>
               <i className="fas fa-wind" />
-              <span>23km/h</span>
+              <span>
+                {context.velViento}
+                km/h
+              </span>
             </div>
             <div>
               <span>Tº Wind</span>
               <i className="fas fa-thermometer" />
-              <span>23ºC</span>
+              <span>
+                {context.temp}
+                ºC
+              </span>
             </div>
             <div>
               <span>Tº Sand</span>
@@ -35,12 +41,15 @@ export default () => (
             <div>
               <span>H Sand</span>
               <i className="fas fa-tint" />
-              <span>10%</span>
+              <span>{context.humSuelo}%</span>
             </div>
             <div>
               <span>Seismic Lvl</span>
               <i className="fas fa-globe-africa" />
-              <span>0dB</span>
+              <span>
+                {context.valSism}
+                dB
+              </span>
             </div>
           </div>
           <div className="stats-rigth">
@@ -52,7 +61,7 @@ export default () => (
             <div>
               <span>Luminity</span>
               <i className="fas fa-lightbulb" />
-              <span>25%</span>
+              <span>{context.Luz}%</span>
             </div>
           </div>
           <div className="composition">
