@@ -1,25 +1,40 @@
 import React from 'react';
-import AtmosphericComposition from '../components/AtmosphericComposition';
-import Humidity from '../components/Humidity';
+import { Consume } from '../Providers/SensorsProvider';
 
 export default () => (
   <div className="biometrics-page">
-    <h1 className="Name">Mark Watney</h1>
-    <div className="Image">
-      <span className="helper" />
-      <img
-        className="img-bio"
-        src="../src/assets/img/biometrics.jpg"
-        alt="bio"
-      />
-    </div>
-    <div className="Radiacion-start-cell" />
-    <div className="Sidebar-1" />
-    <div className="Sidebar-2">
-      <Humidity percent={45} />
-    </div>
-    <div className="Sidebar-3">
-      <AtmosphericComposition />
+    <img
+      className="img-bio"
+      height="300px"
+      src="../src/assets/img/biometrics.jpg"
+      alt="bio"
+    />
+    <div>
+      <Consume>
+        {context => (
+          <div className="stats">
+            <div>
+              <span>Suit Pressure</span>
+              <i className="fas fa-wind" />
+              <span>{context.presTraje}b</span>
+            </div>
+            <div>
+              <span>Temperature</span>
+              <i className="fas fa-thermometer-three-quarters" />
+              <span>
+                {context.tempCorporal}
+                ºC
+              </span>
+            </div>
+            <div>
+              <span>Radiation</span>
+              {!!context.geiger && (
+                <i className="fas fa-exclamation-triangle" />
+              )}
+            </div>
+          </div>
+        )}
+      </Consume>
     </div>
   </div>
 );

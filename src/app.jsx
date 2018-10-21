@@ -6,6 +6,7 @@ import Navigation from './pages/Navigation';
 import Sensors from './pages/Sensors';
 import FooterRow from './components/FooterRow';
 import Home from './pages/Home';
+import SensorsProvider from './Providers/SensorsProvider';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -69,14 +70,16 @@ export default class App extends React.Component {
             </Link>
           </div>
         </div>
-        <Route path="/biometrics" component={Biometrics} />
-        <Route path="/comunications" component={Comunications} />
-        <Route path="/navigation" component={Navigation} />
-        <Route path="/sensors" component={Sensors} />
-        <Route path="/" exact component={Home} />
-        <div className="container-fluid">
-          <FooterRow />
-        </div>
+        <SensorsProvider>
+          <Route path="/biometrics" component={Biometrics} />
+          <Route path="/comunications" component={Comunications} />
+          <Route path="/navigation" component={Navigation} />
+          <Route path="/sensors" component={Sensors} />
+          <Route path="/" exact component={Home} />
+          <div className="container-fluid">
+            <FooterRow />
+          </div>
+        </SensorsProvider>
       </div>
     );
   }
