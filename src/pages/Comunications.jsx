@@ -12,7 +12,7 @@ export default class extends Component {
       <div>
         {setVideo ? (
           <div className="text-center">
-            <video width="100%" height="240" className="video-call" autoPlay>
+            <video className="video-call" autoPlay>
               <source src="./assets/video/video.mp4" type="video/mp4" />
             </video>
             <i
