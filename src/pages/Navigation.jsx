@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import L from 'leaflet';
+import SensorsProvider, { Consume } from '../Providers/SensorsProvider';
 
 export default class extends Component {
   componentDidMount() {
@@ -74,6 +75,13 @@ export default class extends Component {
           }).addTo(map); */
     }
   render() {
-      return <div className="navigation-main" id="map" />;
+      return (
+          <Consume>
+              {context => (
+                  <div><div className="navigation-main" id="map" /> <div className="brujula">
+                      <img src="../src/assets/img/arrow.jpg" style={{ transform: `rotate(${context.brujula}deg)` }} /></div></div>
+                )}
+            </Consume>
+        );
     }
 }
